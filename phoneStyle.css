@@ -9,6 +9,7 @@
     body{
         height: 100vw;
         width: 100vw;
+        
     }
     header{
         height: auto;
@@ -40,7 +41,7 @@
         font-size: 19em;
     }
     .menulist{
-        border: 2px solid black;
+        /* border: 2px solid black; */
         height: auto;
         width: 65vw;
         position: fixed;
@@ -52,7 +53,7 @@
         display: none;
     }
     .hambar{
-        border-bottom: 2px solid black;
+        border: 2px solid black;
         height: 56px;
         width: 65vw;
         display: flex;
@@ -63,10 +64,48 @@
         background-color: white;
     }
     .screenmode{
-        border: 2px solid black;
+        /* border: 2px solid black; */
         height: 45px;
-        width: 45px;
+        width: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
+    .screenmode>.manualmode{
+        border: 2px solid black;
+        height: 35px;
+        width: 75px;
+        margin: 0px 2px;
+        border-radius: 18px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0px 3px;
+        background-color: #664660;
+    }
+    .fa-sun{
+        font-size: 22px;
+        color: #FDB813;
+    }
+    .fa-moon{
+        font-size: 24px;
+        margin-right: 2px;
+        color: #F5F3CE;
+    }
+    .screenmode>.automode{
+        border: 2px solid black;
+        height: 35px;
+        width: 35px;
+        margin: 0px 2px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .fa-a{
+        font-size: 22px;
+    }
+
     .fa-xmark{
         font-size: 19em;
     }
